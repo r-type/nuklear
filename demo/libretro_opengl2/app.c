@@ -68,9 +68,9 @@ struct nk_font_atlas *atlas;
 
 /* This are the main examples to provide a small overview of what can be
  * done with this library. only one at time */
-//#define NO_EXAMPLE 1
+#define NO_EXAMPLE 1
 //#define EXAMPLE_FILEBROWSER 1
-//#define EXAMPLE_EXTENDED 1
+#define EXAMPLE_EXTENDED 1
 //#define EXAMPLE_CANVAS 1
 
 #if defined(EXAMPLE_FILEBROWSER)

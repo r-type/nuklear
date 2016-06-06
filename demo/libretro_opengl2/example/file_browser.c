@@ -480,7 +480,7 @@ icon_load(const char *filename)
     int x,y,n;
     GLuint tex;
     unsigned char *data = stbi_load(filename, &x, &y, &n, 0);
-    if (!data) die("[RETRO]: failed to load image: %s", filename);
+    if (!data) die("[LIBRETRO]: failed to load image: %s", filename);
 
     glGenTextures(1, &tex);
     glBindTexture(GL_TEXTURE_2D, tex);
